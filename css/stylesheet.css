@@ -5,7 +5,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'avenirbook';
+    src: url('avenir-book-01-webfont.woff2') format('woff2'),
+         url('avenir-book-01-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body {
     height: 1024px;
     background-color:black;
@@ -25,13 +32,13 @@ body {
 
 h1 {
     display: flex; 
-    margin-top: 0px;
     text-decoration: underline;
     color: white;
     font-family: 'dinboldalternate';
     font-size: 72px;
     justify-content: center;
     color: black;
+    margin: 0px;
 }
 
 h2 {
@@ -44,7 +51,6 @@ h3 {
     font-style: normal;
     font-family: 'dinboldalternate';
     font-size: 36px;
-
 }
 .headline {
     display: flex;
@@ -62,4 +68,17 @@ h3 {
 _}
 a {
     text-decoration: none;
+}
+p {
+    font-family: 'avenirbook';
+    font-size: 18px;
+    background-color: bisque;
+    margin-top: 30px;
+}
+#skill_Format {
+    display: flex;
+}
+#skills_section {
+    margin-left: 100px;
+    justify-content: flex-start;
 }

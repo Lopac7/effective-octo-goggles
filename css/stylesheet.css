@@ -24,16 +24,20 @@ body {
 }
 
 h1 {
-    size: 72px;
+    display: flex; 
+    margin-top: 0px;
     text-decoration: underline;
     color: white;
     font-family: 'dinboldalternate';
+    font-size: 72px;
+    justify-content: center;
+    color: black;
 }
 
 h2 {
-    size: 48px;
     text-decoration: underline;
     color: white;
+    font-size: 48px;
 }
 h3 {
     color: white;
@@ -54,4 +58,8 @@ h3 {
     background-color: white;
     width: 1024px;
     height: 490px;
+    margin-bottom: 0px;
+_}
+a {
+    text-decoration: none;
 }

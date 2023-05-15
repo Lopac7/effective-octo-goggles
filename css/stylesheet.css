@@ -75,10 +75,23 @@ p {
     background-color: bisque;
     margin-top: 30px;
 }
-#skill_Format {
+#skill_format {
     display: flex;
+    justify-content: flex-start;
 }
 #skills_section {
     margin-left: 100px;
     justify-content: flex-start;
+}
+ul {
+    font-family: 'avenirbook';
+    text-decoration: none;
+    font-size: 18px;
+}
+#skillPhoto {
+    background-color: white;
+    width: 635px;
+    height: 300px;
+    margin-left: 350px;
+    margin-bottom: 1000px;
 }

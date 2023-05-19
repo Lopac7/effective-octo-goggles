@@ -23,7 +23,7 @@ body {
     position: absolute;
     background-color:rgb(199, 200, 202);
     width: 1024px;
-    height: 2000px;
+    height: 2600px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -65,14 +65,13 @@ h3 {
     width: 1024px;
     height: 490px;
     margin-bottom: 0px;
-_}
+}
 a {
     text-decoration: none;
 }
 p {
     font-family: 'avenirbook';
     font-size: 18px;
-    background-color: bisque;
     margin-top: 30px;
 }
 #skill_format {
@@ -94,4 +93,37 @@ ul {
     height: 300px;
     margin-left: 350px;
     margin-bottom: 1000px;
+}
+#Portfolio_imgs {
+    margin-top: 25px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly
+}
+#PortA:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+#PortB:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+#PortC:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+#PortD:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+#PortE:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+#ContactBox {
+    width: auto;
+    height: 400px;
+    background-color: white;
+    margin-top: 200px;
 }

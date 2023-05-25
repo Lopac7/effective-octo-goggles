@@ -15,7 +15,7 @@
 }
 body {
     height: 1024px;
-    background-color:black;
+    background-color: black;
     margin: 0px;
     size: 1024px;
 }
@@ -43,8 +43,9 @@ h1 {
 
 h2 {
     text-decoration: underline;
-    color: white;
+    color: black;
     font-size: 48px;
+    font-family: 'dinboldalternate';
 }
 h3 {
     color: white;
@@ -63,7 +64,7 @@ h3 {
 #gallery {
     background-color: white;
     width: 1024px;
-    height: 490px;
+    height: 600px;
     margin-bottom: 0px;
 }
 a {
@@ -73,6 +74,7 @@ p {
     font-family: 'avenirbook';
     font-size: 18px;
     margin-top: 30px;
+    margin: 10px;
 }
 #skill_format {
     display: flex;
@@ -101,29 +103,47 @@ ul {
     flex-wrap: wrap ;
     justify-content: space-evenly
 }
+
 #PortA:hover {
     transform:scale(1.6);
     transition-duration: 1.5s;
 }
-#PortB:hover {
-    transform:scale(1.6);
-    transition-duration: 1.5s;
-}
+
 #PortC:hover {
     transform:scale(1.6);
     transition-duration: 1.5s;
 }
+
 #PortD:hover {
     transform:scale(1.6);
     transition-duration: 1.5s;
 }
+
 #PortE:hover {
     transform:scale(1.6);
     transition-duration: 1.5s;
 }
+
+#PortF:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+
+#PortG:hover {
+    transform:scale(1.6);
+    transition-duration: 1.5s;
+}
+
 #ContactBox {
     width: auto;
     height: 400px;
     background-color: white;
-    margin-top: 200px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#PortA, #PortB, #PortC, #PortD, #PortE, #PortF, #PortG {
+    margin: 25px;
 }

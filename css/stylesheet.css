@@ -39,6 +39,21 @@ h1 {
     justify-content: center;
     color: black;
     margin: 0px;
+
+}
+h1:hover {
+    display: flex; 
+    text-decoration: underline;
+    color: white;
+    font-family: 'dinboldalternate';
+    font-size: 72px;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+    background-color: blue;
+    transition-property: background-color white;
+    transition-duration: 1s;
+    transition-delay: .24s;
 }
 
 h2 {
@@ -108,7 +123,7 @@ ul {
     transform:scale(1.6);
     transition-duration: 1.5s;
 }
-
+/* we dont talk about B */
 #PortC:hover {
     transform:scale(1.6);
     transition-duration: 1.5s;
@@ -138,7 +153,6 @@ ul {
     width: auto;
     height: 400px;
     background-color: white;
-    margin-top: 150px;
     display: flex;
     justify-content: center;
 

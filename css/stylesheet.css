@@ -79,7 +79,7 @@ h3 {
 #gallery {
     background-color: white;
     width: 1024px;
-    height: 600px;
+    height: 750px;
     margin-bottom: 0px;
 }
 a {
@@ -103,6 +103,7 @@ ul {
     font-family: 'avenirbook';
     text-decoration: none;
     font-size: 18px;
+    color: black;
 }
 #skillPhoto {
     background-color: white;
@@ -122,6 +123,7 @@ ul {
 #PortA:hover {
     transform:scale(1.6);
     transition-duration: 1.5s;
+
 }
 /* we dont talk about B */
 #PortC:hover {
@@ -149,15 +151,20 @@ ul {
     transition-duration: 1.5s;
 }
 
+#HELP {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 #ContactBox {
     width: auto;
     height: 400px;
     background-color: white;
     display: flex;
-    justify-content: center;
-
+    flex-direction: column; 
 }
 
 #PortA, #PortB, #PortC, #PortD, #PortE, #PortF, #PortG {
-    margin: 25px;
+    margin: 15px;
+    transition: all ease-in-out 1.5s;
 }
